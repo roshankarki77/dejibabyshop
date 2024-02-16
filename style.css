@@ -36,6 +36,7 @@ header {
 
 .logo img {
     height: 70px;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -52,14 +53,25 @@ nav ul li a {
     color: #333;
     font-weight: bold;
 }
-
+.product>img{
+    border-radius: 15px;
+}
 /* Hero section styles */
 .hero {
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
+main{
+    margin-top: 124px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
@@ -166,7 +178,21 @@ footer {
 .product {
     margin-bottom: 40px;
 }
-
+.contact >p> a{
+    color: white;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.map iframe{
+    width: 90%;
+    height: 450px;
+    border: none;
+    border-radius: 15px;
+}
 .product img {
     width: 200px;
     height: 200px;
@@ -190,8 +216,8 @@ footer {
     }
 
     .product img {
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 350px;
     }
 
     .product h3 {
@@ -213,8 +239,8 @@ footer {
     }
 
     .product img {
-        width: 180px;
-        height: 180px;
+        width: 350px;
+        height: 350px;
     }
 
     .product h3 {
@@ -226,6 +252,7 @@ footer {
     }
 }
 
+
 /* Responsive styles for desktop */
 @media (min-width: 1024px) {
     .products {
@@ -233,8 +260,8 @@ footer {
     }
 
     .product img {
-        width: 200px;
-        height: 200px;
+        width: 350px;
+        height: 350px;
     }
 
     .product h3 {
