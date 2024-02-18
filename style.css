@@ -208,7 +208,9 @@ footer {
 .product p {
     font-size: 14px;
 }
-
+.map > iframe{
+    max-width: 850px;
+}
 /* Responsive styles for mobile */
 @media (max-width: 767px) {
     .products {
